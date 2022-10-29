@@ -1,0 +1,50 @@
+{
+  "private": false,
+  "type": "module",
+  "name": "@aminnairi/react-mui-snackbar",
+  "description": "Snackbar provider & utilities for Material UI using React",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aminnairi/react-mui-snackbar#readme",
+  "license": "GPL-3.0-or-later",
+  "main": "./build/index.common.js",
+  "module": "./build/index.module.js",
+  "types": "./build/index.d.ts",
+  "bugs": {
+    "url": "https://github.com/aminnairi/react-mui-snackbar/issues"
+  },
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aminnairi/react-mui-snackbar.git"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [
+    "react",
+    "mui",
+    "material",
+    "snackbar",
+    "alert"
+  ],
+  "scripts": {
+    "build": "rollup --config ./rollup.config.ts --configPlugin typescript"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "0.1.0",
+    "@rollup/plugin-typescript": "9.0.2",
+    "@types/react": "18.0.24",
+    "rollup": "3.2.3",
+    "rollup-plugin-delete": "2.0.0",
+    "ts-node": "10.9.1",
+    "tslib": "2.4.0",
+    "typescript": "4.8.4"
+  },
+  "peerDependencies": {
+    "@mui/material": "^5.10.11",
+    "react": "^18.2.0"
+  }
+}
