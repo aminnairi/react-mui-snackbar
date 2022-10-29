@@ -18,7 +18,7 @@ npm install @aminnairi/react-mui-snackbar
 
 ## Usage
 
-```typescript
+```tsx
 // ./src/index.jsx
 
 import React, { StrictMode } from "react"
@@ -43,10 +43,10 @@ root.render(
 )
 ```
 
-```typescript
+```tsx
 // ./src/components/app.jsx
 
-import React, { Fragment } from "react"
+import React, { Fragment, useEffect } from "react"
 import { useSnackbarContext } from "@aminnairi/react-mui-snackbar"
 import { Button } from "@mui/material"
 
